@@ -32,11 +32,13 @@ register.onclick = function(){
     registerClick()
 }
 var listContainer=document.createElement('div')
-  var item  = document.createElement('div')
+
+
 var students=[]
 function handleSubmit(){
    document.body.removeChild(forms)
-  
+   var item  = document.createElement('div') 
+   
    for(var i = 0;i<inputs.length;i++){
     
     
@@ -58,6 +60,7 @@ function handleSubmit(){
     remover.textContent ='remove'
     item.appendChild(remover)
    students.push(item)
+ 
    item.classList.add('item')
    listContainer.classList.add('list-container')
    document.body.appendChild(listContainer)
@@ -70,9 +73,12 @@ var add = document.createElement('button')
 submit.addEventListener('click',function(){
     handleSubmit()
   
+    
     add.classList.add('add-student-btn')
     add.textContent = 'add'
-    document.body.appendChild(add)
+    listContainer.appendChild(add)
+    
+    
 })
 
 
