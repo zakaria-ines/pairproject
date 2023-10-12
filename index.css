@@ -1,0 +1,102 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+body{
+  
+   background-image:url('../graduate-student.jpg') ;
+   background-repeat:no-repeat;
+   background-size:cover
+}
+header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    padding:20px 100px ;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation a{
+    position: relative;
+    font-size: 1.1em;
+    color:black;
+    font-weight: 500;
+    margin-left:40px;
+}
+.navigation .btLogin{
+    width: 130px;
+    height: 50px;
+    background-color: transparent;
+    border:2px solid;
+    border-radius:6px;
+    color:darkslategrey;
+    margin-left:40px;
+}
+.welcome{
+   
+   
+    margin: auto;
+    top:10%;
+    left:30%;
+    background:transparent;
+    border:2px solid rgba(255, 255, 255, 0.427);
+    width: 320px;
+    height:600px;
+}
+.welcome #p1 {
+    top: 10%;
+  
+    text-transform: uppercase;
+    text-align:center;
+   color:white;
+   position:relative;
+   width:80%;
+   height:440px;
+   border-style:solid;
+   border-color: black;
+   border-width:3px;
+   background-color:darkgrey;
+}
+  #login{
+    position:relative;
+    width: 80%;
+    padding: 10px;
+    background-color:rgb(168, 168, 207);
+    color: white;
+}
+
+
+
+
+
+.forms{
+    width: 250px;
+    height:400px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap:wrap;
+    border:2px  ;
+    margin-left:38%;
+    border-style:solid;
+    border-color: black;
+    border-width:3px;
+    background-color:rgb(156, 153, 153)
+}
+.forms input{
+    width:80%;
+    font-size: 20px;
+    border-radius:8px;
+    padding:6px
+}
+.forms input:focus{
+    outline:none;
+}
+
+#add{
+    cursor:pointer;
+}
